@@ -40,8 +40,9 @@ public class ProductCheckoutTest extends TestBase {
 		cartPage.startReportFromHere(report);
 		cartPage.clickAddToCartButton();
 		cartPage.checkItemCount(1);
+		cartPage.clickOnShoppingCartLink();
 
-		//
+		// New Page
 		checkoutPage = new CheckoutPage(driver);
 		checkoutPage.startReportFromHere(report);
 		checkoutPage.proceedToCheckout();

@@ -61,4 +61,16 @@ public class CartPage {
 			report.testLogAndScr("Cart count matches with expected value", "FAIL", driver);
 		}
 	}
+
+	public void clickOnShoppingCartLink() {
+		String xpath = "//a[@class='shopping_cart_link']";
+		try {
+			helper.customExplicitWaitTillElementBecomesActive(xpath, 3, 0.5);
+			helper.clickUsingJS(xpath);
+			report.testLogAndScr("Able to click on shopping cart icon", "PASS", driver);
+		} catch (Exception e) {
+			e.printStackTrace();
+			report.testLogAndScr("Unable to click on shopping cart icon", "FAIL", driver);
+		}
+	}
 }
