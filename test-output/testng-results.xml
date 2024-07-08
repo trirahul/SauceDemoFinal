@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-09T00:51:23 IST" name="Default suite" finished-at="2024-07-09T00:51:32 IST" duration-ms="9018">
+    <groups>
+    </groups>
+    <test started-at="2024-07-09T00:51:23 IST" name="Default test" finished-at="2024-07-09T00:51:32 IST" duration-ms="9018">
+      <class name="com.sauce.tests.ProductSortTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.ProductSortTest@45d84a20]" started-at="2024-07-09T00:51:23 IST" name="setup" finished-at="2024-07-09T00:51:27 IST" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUserRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauce.tests.ProductSortTest@45d84a20]" started-at="2024-07-09T00:51:27 IST" name="testUserRegistration" data-provider="loginData" finished-at="2024-07-09T00:51:32 IST" duration-ms="5184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.tests.ProductSortTest@45d84a20]" started-at="2024-07-09T00:51:32 IST" name="teardown" finished-at="2024-07-09T00:51:32 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.tests.ProductSortTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
