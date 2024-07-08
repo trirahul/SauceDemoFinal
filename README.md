@@ -1,4 +1,3 @@
-# SauceDemoFinal
 # Automated Testing for E-commerce Website
 
 ## Introduction
@@ -115,4 +114,29 @@ This repository contains an automated testing strategy for the e-commerce websit
 - TestNG provides powerful test configuration and reporting.
 
 ### Project Structure
+selenium-test
+│
+├── src
+│ ├── main
+│ │ └── java
+│ │ └── com
+│ │ └── example
+│ │ ├── base
+│ │ │ └── TestBase.java
+│ │ ├── pages
+│ │ │ ├── LoginPage.java
+│ │ │ ├── ProductPage.java
+│ │ │ ├── CartPage.java
+│ │ │ └── CheckoutPage.java
+│ └── test
+│ └── java
+│ └── com
+│ └── example
+│ └── tests
+│ └── FunctionalTests.java
+│ └── resources
+│ └── testdata
+│ └── testdata.csv
+├── pom.xml
+└── README.md
 
