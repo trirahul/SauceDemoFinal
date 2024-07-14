@@ -144,9 +144,11 @@ selenium-test
 1) It is assumed that a standard e-commerce website is to be used for testing purposes
 2) User has 'Eclipse Java IDE for Java Developers 2024-06', Maven and TestNG plugins installed in Eclipse IDE
 3) User is using Windows OS.
+4) Java 8 (JDK and JRE) are installed and properly configured on the user's sytem.
+5) Maven version 3.8.5 is installed and aptly configured on user's system.
 ### How To Run
-1) Download the zip file in an apt location on your system
-2) Import it into Eclipse Java IDE
+1) Download the zip file for this project in an apt location on your system from Github
+2) Unzip it and import it into Eclipse Java IDE
 3) Right-click on the project in Project Explorer View and click on Maven->Update Project
 4) Right-click on the project again in Project Explorer View and click on Run As->Maven Clean
 5) Right-click on the project in Project Explorer View and click on Maven->Update Project
