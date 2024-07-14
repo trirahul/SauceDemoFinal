@@ -145,7 +145,7 @@ selenium-test
 2) User has 'Eclipse Java IDE for Java Developers 2024-06', Maven and TestNG plugins installed in Eclipse IDE
 3) User is using Windows OS.
 ### How To Run
-1) Download the zip file in an apt location
+1) Download the zip file in an apt location on your system
 2) Import it into Eclipse Java IDE
 3) Right-click on the project in Project Explorer View and click on Maven->Update Project
 4) Right-click on the project again in Project Explorer View and click on Run As->Maven Clean
