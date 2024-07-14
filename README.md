@@ -151,4 +151,5 @@ selenium-test
 4) Right-click on the project again in Project Explorer View and click on Run As->Maven Clean
 5) Right-click on the project in Project Explorer View and click on Maven->Update Project
 6) Right-click on the project again in Project Explorer View and click on Run As->Maven Test
+7) Once all expected tests are done, check ExtentReports folder for customized report.
 
