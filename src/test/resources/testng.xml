@@ -2,8 +2,8 @@
 <suite name="Suite">
 	<test name="Test">
 		<classes>
-			<!--            <class name="com.sauce.tests.LoginTest"/> -->
-<!--			<class name="com.sauce.tests.ProductSortTest" /> -->
+			           <class name="com.sauce.tests.LoginTest"/>
+			<class name="com.sauce.tests.ProductSortTest" />
 			<class name="com.sauce.tests.ProductCheckoutTest" />
 		</classes>
 	</test>
